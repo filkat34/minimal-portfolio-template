@@ -15,4 +15,4 @@ Site comportant un menu dynamique sur le côté gauche et plusieurs pages :
 
 ## Remerciements
 
-L'apparence et le code de ce site doit beaucoup à des idées glanées un peu partout sur internet mais avant tout aux couleurs et au minimalisme du < a href='https://github.com/probberechts/hexo-theme-cactus?tab=readme-ov-file'>thème cactus</a> pour hexo ainsi qu'au code du menu hamburger dynamique partagé par <a href='https://github.com/terwanerik'>terwanerik</a>.
+L'apparence et le code de ce site doit beaucoup à des idées glanées un peu partout sur internet mais avant tout aux couleurs et au minimalisme du < a href=https://github.com/probberechts/hexo-theme-cactus>thème cactus</a> pour hexo ainsi qu'au code du menu hamburger dynamique partagé par <a href=https://github.com/terwanerik>terwanerik</a>.
