@@ -1,0 +1,13 @@
+
+.liste-competences{
+    column-count: 2;
+    column-width: 10em;
+
+  dd {
+    display: list-item;
+    list-style-type: "☑";
+    padding-inline-start: 1ch;
+  }
+
+}
+

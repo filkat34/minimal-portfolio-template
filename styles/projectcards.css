@@ -1,0 +1,134 @@
+/* PROJECT CARDS */
+
+.card-icon {
+    width: 35px;
+  }
+  
+  .card-format-container {
+    width: auto;
+    margin: 0 ;
+  }
+  
+  .card-project_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+    padding: auto 0;
+  }
+  
+  .card-project_item {
+    -ms-flex-preferred-size: calc(33.33333% - 30px);
+    flex-basis: calc(33.33333% - 30px);
+  
+    margin: 0 15px 30px;
+  
+    overflow: hidden;
+  
+    border-radius: 0px;
+  }
+  
+  .card-project-item_link {
+    display: block;
+    text-decoration: none;
+    padding: 30px 20px;
+    background-color: #1d1f21;
+  
+    overflow: hidden;
+  
+    position: relative;
+  }
+  
+  .card-project-item_link:hover,
+  .card-project-item_link:hover .card-project-item_language {
+    text-decoration: none;
+    color: #FFF;
+  }
+  
+  .card-project-item_link:hover .card-project-item_bg {
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+  }
+  
+  .card-project-item_title {
+    min-height: 87px;
+    margin: 0 0 auto;
+  
+    overflow: hidden;
+  
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+  
+    z-index: 2;
+    position: relative;
+  }
+  
+  .card-project-item_language-box {
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+  
+    z-index: 2;
+    position: relative;
+  }
+  
+  .card-project-item_bg {
+    height: 128px;
+    width: 128px;
+    background-color: grey;
+  
+    z-index: 1;
+    position: absolute;
+    top: -75px;
+    right: -75px;
+  
+    border-radius: 50%;
+  
+    -webkit-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  
+  
+  @media only screen and (max-width: 979px) {
+    .card-project_item {
+      -ms-flex-preferred-size: calc(50% - 30px);
+      flex-basis: calc(50% - 30px);
+    }
+    .card-project-item_title {
+      font-size: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .card-format-container {
+      width: auto;
+    }
+  
+  }
+  @media only screen and (max-width: 639px) {
+    .card-project_item {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    .card-project-item_title {
+      min-height: 72px;
+      line-height: 1;
+  
+      font-size: auto;
+    }
+    .card-project-item_link {
+      padding: 22px 40px;
+    }
+    .card-project-item_language-box {
+      font-size: 16px;
+    }
+  }
+  
